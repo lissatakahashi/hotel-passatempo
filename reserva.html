@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reserva</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Hotel Passatempo</h1>
+        <nav>
+            <a href="ohotel.html">O Hotel</a> | 
+            <a href="faleconosco.html">Fale conosco</a>       
+        </nav>
+    </header>
+    <hr>
+    <nav>
+        <ul>
+            <li><a class="active" href="reserva.html">Reserva</a></li>
+            <li><a href="acomodacoes.html">Acomodações</a></li>
+            <li><a href="comodidades.html">Comodidades</a></li>
+            <li><a href="ofertas.html">Ofertas</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h2>Reserva online</h2>
+        <form>
+                <fieldset>
+                    <legend>Responsável</legend>
+                    <label>Nome</label>
+                    <input type="text" name="nome" placeholder="Fulano de Tal" id="nome1">
+                    <label>E-mail</label>
+                    <input type="email" name="email" placeholder="fulano@provedor.com" id="email1">
+                    <label>Telefone</label>
+                    <input type="text" name="telefone" placeholder="(xx) xxxxx-xxxx" id="telefone1">
+                </fieldset>
+                <br>
+                <fieldset>
+                    <legend>Dados da reserva</legend>
+                    <label>Data de entrada</label>
+                    <input type="date">
+                    <label>Data de saída</label>
+                    <input type="date">
+                    <label>Adultos</label>
+                    <input type="number" min="1" max="4" step="1" value="1">
+                    <label>Crianças</label>
+                    <input type="number" min="0" max="4" step="1" value="0">
+                    <label>Acomodação</label>
+                    <select name="Acomodação">
+                        <option value="sta">Standard</option>
+                        <option value="lux">Luxo</option>
+                    </select>
+                </fieldset>
+                <br>
+                <button class="botao" type="submit">Reservar</button>
+        </form>
+    </main>
+    <footer>
+        <hr>
+        <p>Hotel Passatempo - 2021</p>
+        <address>Av. João de Barro, 123 - Medianeira - PR</address>
+        <p><img src="imagens/whatsapp-redimensionado.ico" alt="Ícone do WhatsApp"> (45) 99999-9999</p>
+        <p><img src="imagens/email-redimensionado.ico" alt="Ícone de e-mail"> contato@hotelpassastempo.com.br</p>
+    </footer>
+</body>
+</html>
